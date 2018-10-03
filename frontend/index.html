@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>c:</title>
+    <link rel="stylesheet" href="./src/bootstrap.min.css"/>
+    <script src="./src/bootstrap.min.js"></script>
+    <script src="./src/jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body class="bg-dark mx-auto p-5">
+
+    <form id="loginForm" class="bg-white mx-auto w-50 card p-5">
+        <div class="form-group">
+            <label for="usernameInput">Username</label>
+            <input class="form-control" type="text" id="usernameInput" required/>
+            <small class="text-muted">... you signed up with one</small>
+        </div>
+        <div class="form-group">
+            <label for="passwordInput">Password</label>
+            <input class="form-control" type="password" id="passwordInput" required/>
+            <small class="text-muted">... we keep it secure... in a json file (very secure 100%)</small>
+        </div>
+        <button id="loginButton" type="submit" class="btn btn-danger">Login</button>
+    </form>
+
+    <div class="card mx-auto bg-white w-50 mt-3 p-5">
+        <button id="registerButton" class="btn btn-warning" type="button">Register an account</button>
+    </div>
+
+</body>
+</html>
