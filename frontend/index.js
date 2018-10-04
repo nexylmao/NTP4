@@ -29,7 +29,8 @@ $(document).ready(function () {
             return false;
         }
         else {
-            window.localStorage.setItem("id", users[index].id);
+            window.sessionStorage.setItem("id", users[index].id);
+            window.sessionStorage.setItem("user", JSON.stringify(users[index]));
             window.location.replace("home.html");
             return false;
         }

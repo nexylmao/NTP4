@@ -8,7 +8,30 @@
     <script src="./src/jquery-3.3.1.min.js"></script>
     <script src="home.js"></script>
 </head>
-<body class="bg-dark">
-    <button id="logout" type="button" class="btn btn-danger">Logout</button>
+<body class="bg-dark p-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-9 card p-3">
+                <div class="card bg-danger p-3">
+                    <h4>nexylmao's github repos.</h4>
+                    <nav class="nav w-100">
+                        <button id="jws" type="button" class="btn btn-dark m-1">jwt-websocket</button>
+                        <button id="ntp4" type="button" class="btn btn-dark m-1">NTP4</button>
+                        <button id="edb" type="button" class="btn btn-dark m-1">ed-backend</button>
+                        <button id="edf" type="button" class="btn btn-dark m-1">ed-frontend</button>
+                    </nav>
+                </div>
+                <div class="p-3" id="content">
+                    <!--auto-injected-->
+                </div>
+            </div>
+            <div class="col-3 card bg-warning p-3">
+                <h1>Profile.</h1>
+                <small class="text-muted">username: </small>
+                <h3 id="username"></h3>
+                <button id="logout" type="button" class="btn btn-danger">Logout</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
