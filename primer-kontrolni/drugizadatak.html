@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+    <script src="src/jquery-3.3.1.min.js"></script>
+    <script src="drugizadatak.js"></script>
+    <title>Zasto postoje kursevi frontend programiranja</title>
+    <style>
+        h1:hover {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Anketa o ishrani</h1>
+    <form id="kogaZanimaOvo">
+        <!-- stvarno je sranje ako profesorka ne dozvoljava da samo lupimo required ovde -->
+        <label for="povrce">Koje povrce najcesce yeete?</label>
+        <input type="text" id="povrce"/>
+        <label for="voce">Koje voce najcesce yeete?</label>
+        <input type="text" id="voce"/>
+        <label for="tecnost">Koju tecnost najcesce pijete?</label>
+        <input type="text" id="tecnost"/>
+        <label for="godina">Koliko godina imate?</label>
+        <input type="number" id="godina"/>
+        <button type="submit">Posalji rezultate</button>
+    </form>
+</body>
+</html>
