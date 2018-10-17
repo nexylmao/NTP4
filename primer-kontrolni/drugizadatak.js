@@ -1,9 +1,15 @@
-$(document).ready(function () {
-    $('#kogaZanimaOvo').submit(function () {
-        let povrce = $('#povrce').val();
-        let voce = $('#voce').val();
-        let tecnost = $('#tecnost').val();
-        let godina = $('#godina').val();
+window.onload = function () {
+    let naslov = document.getElementById('naslov');
+    naslov.onmouseover = function () {
+        naslov.style.color = 'yellow';
+    };
+
+    let form = document.getElementById('kogaZanimaOvo');
+    form.onsubmit = function () {
+        let povrce = document.getElementById('povrce').value;
+        let voce = document.getElementById('voce').value;
+        let tecnost = document.getElementById('tecnost').value;
+        let godina = document.getElementById('godina').value;
         if (povrce === '') {
             alert('Mora neko povrce, inace ces se raspasti od avitaminoze');
         } else if (voce === '') {
@@ -16,5 +22,5 @@ $(document).ready(function () {
             window.location.replace('https://www.jjzmaj.edu.rs');
         }
         return false;
-    });
-});
+    };
+}
