@@ -1,0 +1,23 @@
+$(document).ready(function () {
+    
+    $('#beamTheTextUp').on('click', function () {
+        $('h1').toggleClass('beamed');
+        $('h2').toggleClass('beamed');
+        $('h3').toggleClass('beamed');
+    });
+
+    $('#bigBoyNaslov').on("click", function () {
+        $('h2').css('color', 'darkCyan');
+        $('h3').css('color', 'darkCyan');
+    });
+
+    let list = $('#likeYouCantGoogleThese');
+
+    $('#spam').on('click', function () {
+        list.append('<li>NORDLAND NORDLAND NORDLAND</li>')
+    });
+
+    $('#partyPooper').on('click', function () {
+        list.empty();
+    });
+});

@@ -1,0 +1,21 @@
+window.onload = function () {
+    
+    let button = document.getElementById('colorChange');
+    let table = document.getElementById('tabela');
+    let colors = ['white', 'blue', 'red'];
+    let counter = 1; // always has the index of the next color
+    table.style.backgroundColor = colors[0];
+
+    button.onclick = function () {
+        table.style.backgroundColor = colors[counter];
+        counter++;
+        if (counter === colors.length) {
+            counter = 0;
+        }
+    }
+
+    table.onclick = function () {
+        alert('Izmena nije moguca.');
+    }
+
+}
