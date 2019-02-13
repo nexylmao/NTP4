@@ -14,6 +14,14 @@ namespace CalculatorServer
 
             serviceHost.Open();
             Console.WriteLine("Server initialized on port 8080.");
+
+            var c = 'x';
+            do
+            {
+                c = Console.ReadKey(true).KeyChar;
+            } while (c != 'x');
+
+            serviceHost.Close();
         }
     }
 }

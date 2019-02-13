@@ -1,3 +1,4 @@
+using System;
 using InterfaceLibrary;
 
 namespace CalculatorServer
@@ -6,6 +7,7 @@ namespace CalculatorServer
     {
         private ComplexNumber internalMethod(Operations operation, params ComplexNumber[] numbers)
         {
+            Console.WriteLine("Received {0} and operation {1}", numbers.Length, operation.ToString());
             if (numbers.Length == 1)
             {
                 return numbers[0];
