@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLibrary", "InterfaceLibrary\InterfaceLibrary.csproj", "{55F6CA62-615D-4FF7-8341-0CE3D0771E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorServer", "CalculatorServer\CalculatorServer.csproj", "{0246D1D6-0638-4B14-BDCA-56A74824CE70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55F6CA62-615D-4FF7-8341-0CE3D0771E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F6CA62-615D-4FF7-8341-0CE3D0771E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F6CA62-615D-4FF7-8341-0CE3D0771E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F6CA62-615D-4FF7-8341-0CE3D0771E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0246D1D6-0638-4B14-BDCA-56A74824CE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0246D1D6-0638-4B14-BDCA-56A74824CE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0246D1D6-0638-4B14-BDCA-56A74824CE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0246D1D6-0638-4B14-BDCA-56A74824CE70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
