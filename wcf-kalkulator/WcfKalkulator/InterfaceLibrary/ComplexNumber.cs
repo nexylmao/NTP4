@@ -37,7 +37,7 @@ namespace InterfaceLibrary
         public static ComplexNumber operator *(ComplexNumber number1, ComplexNumber number2)
         {
             var real = ((number1.Real * number2.Real) - (number1.Imaginary * number2.Imaginary));
-            var imag = ((number1.Real * number2.Imaginary) - (number1.Imaginary * number2.Real));
+            var imag = ((number1.Real * number2.Imaginary) + (number1.Imaginary * number2.Real));
             return new ComplexNumber(real, imag);
         }
 
