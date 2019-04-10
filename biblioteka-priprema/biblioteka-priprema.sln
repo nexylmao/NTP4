@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biblioteka-server", "biblioteka-server\biblioteka-server.csproj", "{BBBAFF31-EFFC-4065-ABB1-556E548CE652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biblioteka-commons", "biblioteka-commons\biblioteka-commons.csproj", "{C5E52CDF-B721-458F-A82E-A515549547A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBBAFF31-EFFC-4065-ABB1-556E548CE652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBAFF31-EFFC-4065-ABB1-556E548CE652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBAFF31-EFFC-4065-ABB1-556E548CE652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBAFF31-EFFC-4065-ABB1-556E548CE652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E52CDF-B721-458F-A82E-A515549547A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E52CDF-B721-458F-A82E-A515549547A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E52CDF-B721-458F-A82E-A515549547A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E52CDF-B721-458F-A82E-A515549547A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
